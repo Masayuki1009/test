@@ -33,3 +33,6 @@ canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
 //マウスが画面外に行った場合
 canvas.addEventListener('mouseout', () => isDrawing = false);
+
+
+console.log("hello ryuichi");
